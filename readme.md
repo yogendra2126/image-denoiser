@@ -4,7 +4,7 @@
 This project implements an image denoising model using a convolutional autoencoder. The model is designed to improve the quality of images captured in low-light conditions by reducing noise.
 
 ## Project Structure
-- **train.zip**: Contains the training dataset with two folders, `low` (noisy images) and `high` (clean images).
+- **Dataset**: Download the dataset from [this link](https://drive.google.com/file/d/1uj3vfc-ra8uHe40mTnTTML7Iv_jIJb10/view?usp=sharing) and extract it into the repository directory. The dataset contains two folders, `low` (noisy images) and `high` (clean images).
 - **denoiser.ipynb**: Jupyter Notebook with the complete implementation of the image denoiser model, including data loading, preprocessing, model training, and evaluation.
 - **Image_Denoiser.pdf**: Detailed report on the project, including the architecture, code snippets, training process, evaluation, and results.
 
