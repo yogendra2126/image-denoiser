@@ -5,8 +5,8 @@ This project implements an image denoising model using a convolutional autoencod
 
 ## Project Structure
 - **train.zip**: Contains the training dataset with two folders, `low` (noisy images) and `high` (clean images).
-- **image_denoiser.ipynb**: Jupyter Notebook with the complete implementation of the image denoiser model, including data loading, preprocessing, model training, and evaluation.
-- **report.pdf**: Detailed report on the project, including the architecture, code snippets, training process, evaluation, and results.
+- **denoiser.ipynb**: Jupyter Notebook with the complete implementation of the image denoiser model, including data loading, preprocessing, model training, and evaluation.
+- **Image_Denoiser.pdf**: Detailed report on the project, including the architecture, code snippets, training process, evaluation, and results.
 
 ## Model Architecture
 The convolutional autoencoder architecture used in this project consists of:
@@ -32,7 +32,7 @@ The model achieved an average Peak Signal-to-Noise Ratio (PSNR) of **18.33** on 
     git clone https://github.com/yogendra2126/image-denoiser.git
     ```
 2. Extract the `train.zip` file into the repository directory.
-3. Open and run the `image_denoiser.ipynb` notebook to train the model and evaluate the results.
+3. Open and run the `denoiser.ipynb` notebook to train the model and evaluate the results.
 
 ## Requirements
 - Python 3.x
