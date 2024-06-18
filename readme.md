@@ -29,7 +29,7 @@ The model achieved an average Peak Signal-to-Noise Ratio (PSNR) of **18.33** on 
 ## Usage
 1. Clone the repository:
     ```sh
-    git clone https://github.com/YOUR_USERNAME/image-denoiser.git
+    git clone https://github.com/yogendra2126/image-denoiser.git
     ```
 2. Extract the `train.zip` file into the repository directory.
 3. Open and run the `image_denoiser.ipynb` notebook to train the model and evaluate the results.
